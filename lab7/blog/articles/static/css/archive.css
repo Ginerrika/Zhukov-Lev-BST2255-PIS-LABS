@@ -1,0 +1,264 @@
+body {
+  background: #c9a3e6;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 20px 0;
+  position: relative;
+}
+
+.header img {
+  display: block;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.archive {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.one-post {
+  margin-bottom: 20px;
+}
+
+.post-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.article-author {
+  width: 50%;
+  float: left;
+}
+
+.article-created-date {
+  text-align: right;
+}
+
+.article-info {
+  overflow: hidden;
+  margin-bottom: 10px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.article-text {
+  line-height: 1.6;
+}
+
+.return-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.return-link:hover {
+  text-decoration: underline;
+}
+
+.create-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px 50px;
+  min-height: calc(100vh - 140px);
+}
+
+.back-link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 14px;
+  transition: opacity 0.2s;
+  width: 100%;
+  max-width: 720px;
+}
+
+.back-link:hover {
+  opacity: 0.75;
+}
+
+.create-card {
+  background: linear-gradient(135deg, #fff 0%, #f0e9fc 100%);
+  padding: 45px 55px;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 720px;
+  box-shadow: 0 8px 32px rgba(170, 130, 210, 0.18);
+  border: 1px solid rgba(190, 155, 224, 0.25);
+}
+
+.create-title {
+  margin: 0 0 30px;
+  font-size: 26px;
+  color: #3b225b;
+  letter-spacing: 0.3px;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: bold;
+  color: #6e4d8a;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  padding: 14px 18px;
+  border: 2px solid #d5c5ed;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Tahoma, Arial, sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  background: #fdfaff;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group input[type="password"]:focus {
+  border-color: #c9a3e6;
+  box-shadow: 0 0 0 3px rgba(190, 155, 224, 0.2);
+}
+
+.form-group textarea {
+  padding: 14px 18px;
+  border: 2px solid #d5c5ed;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Tahoma, Arial, sans-serif;
+  min-height: 220px;
+  resize: vertical;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  outline: none;
+  line-height: 1.6;
+  background: #fdfaff;
+}
+
+.form-group textarea:focus {
+  border-color: #c9a3e6;
+  box-shadow: 0 0 0 3px rgba(190, 155, 224, 0.2);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.btn-cancel {
+  padding: 12px 26px;
+  background: #ece5f6;
+  color: #7e6094;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-cancel:hover {
+  background: #d5c5ed;
+}
+
+.btn-submit {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #c9a3e6, #a585d6);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.btn-submit:hover {
+  opacity: 0.88;
+}
+
+.field-errors {
+  margin-top: 22px;
+  padding: 14px 18px;
+  background: #fcecf0;
+  color: #a8435a;
+  border: 1px solid #f0c4d0;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.nav-actions {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.login-hint {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #6e4d8a;
+}
+
+.login-hint a {
+  color: #9b6ac0;
+}
+
+.fold-button {
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.fold-button:hover {
+  text-decoration: underline;
+}
+
+.one-post.folded .article-info {
+  display: none;
+}
+
+.one-post.folded .article-text {
+  display: none;
+}
